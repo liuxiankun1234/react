@@ -16,6 +16,11 @@ class BookList extends React.Component {
         this.setState({
             nav: 'A'
         })
+        setTimeout(() => {
+            this.setState({
+                nav: 'C'
+            })
+        })
     }
     render() {
         const {
